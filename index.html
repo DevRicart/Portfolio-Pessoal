@@ -37,6 +37,11 @@
               </a>
             </li>
             <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
               <a href="#skills" class="nav__link">
                 <i class="uil uil-file-alt nav__icon"></i> Skills
               </a>
@@ -44,11 +49,6 @@
             <li class="nav__item">
               <a href="#services" class="nav__link">
                 <i class="uil uil-briefcase-alt nav__icon"></i> Serviços
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> Portfolio
               </a>
             </li>
             <li class="nav__item">
@@ -126,8 +126,8 @@
                   <image
                     class="home__blob-img"
                     x="12"
-                    y="-35"
-                    href="./assets/img/perfil2.png"
+                    y="0"
+                    href="./assets/img/perfil4.png"
                   />
                 </g>
               </svg>
@@ -169,10 +169,10 @@
 
             <div class="about__info">
               <div>
-                <span class="about__info-title">08+</span>
+                <span class="about__info-title">01</span>
                 <span class="about__info-name"
-                  >Year <br />
-                  experience</span
+                  >Ano <br />
+                  experiência</span
                 >
               </div>
               <div>
@@ -182,13 +182,13 @@
                   projects</span
                 >
               </div>
-              <div>
+              <!-- <div>
                 <span class="about__info-title">05+</span>
                 <span class="about__info-name"
                   >Companies <br />
                   worked</span
                 >
-              </div>
+              </div> -->
             </div>
 
             <div class="about__buttons">
@@ -204,13 +204,74 @@
         </div>
       </section>
 
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Modern Website</h3>
+                <p class="porfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                <a href="" class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Modern Website2</h3>
+                <p class="porfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                <a href="" class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Modern Website3</h3>
+                <p class="porfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                <a href="" class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+            <div class="swiper-button-next">
+              <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+      </section>
+
       <!--==================== SKILLS ====================-->
       <section class="skills section" id="skills">
         <h2 class="section__title">Skills</h2>
         <span class="section__subtitle">Minhas skills em tecnologia</span>
 
         <div class="skills__container container grid">
-          <div>
+          <!-- <div> -->
             <!--==================== SKILLS 1 ====================-->
             <div class="skills__content skills__open">
               <div class="skills__header">
@@ -218,7 +279,7 @@
 
                 <div>
                   <h1 class="skills__titles">Frontend developer</h1>
-                  <span class="skills__subtitle">More than 4 years</span>
+                  <span class="skills__subtitle">1 ano de estudo</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -284,7 +345,7 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">PHP</h3>
-                    <span class="skills__number">90%</span>
+                    <span class="skills__number">00%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__php"></span>
@@ -294,7 +355,7 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Node Js</h3>
-                    <span class="skills__number">70%</span>
+                    <span class="skills__number">00%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__node"></span>
@@ -304,7 +365,7 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Firebase</h3>
-                    <span class="skills__number">50%</span>
+                    <span class="skills__number">00%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__firebase"></span>
@@ -322,11 +383,11 @@
                 </div>
               </div>
             </div>
-          </div>
+          <!-- </div> -->
 
-          <div>
+          <!-- <div> -->
             <!--==================== SKILLS 3 ====================-->
-            <div class="skills__content skills__close">
+            <!-- <div class="skills__content skills__close">
               <div class="skills__header">
                 <i class="uil uil-swatchbook skills__icon"></i>
 
@@ -380,14 +441,14 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
       <!--==================== QUALIFICATION ====================-->
       <section class="qualification section">
-        <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle">My personal journey</span>
+        <h2 class="section__title">Qualificação</h2>
+        <span class="section__subtitle">Minha jornada pessoal</span>
 
         <div class="qualification__container container">
           <div class="qualification__tabs">
@@ -398,10 +459,10 @@
               <i class="uil uil-graduation-cap qualification__icon"></i>
               Educação
             </div>
-            <div class="qualification__button button--flex" data-target="#work">
+            <!-- <div class="qualification__button button--flex" data-target="#work">
               <i class="uil uil-briefcase-alt qualification__icon"></i>
-              Work
-            </div>
+              Trabalho
+            </div> -->
           </div>
 
           <div class="qualification__sections">
@@ -486,9 +547,9 @@
               </div>
               
               <!--==================== QUALIFICATION CONTENT 2 ====================-->
-            <div class="qualification__content" data-content id="work">
+            <!-- <div class="qualification__content" data-content id="work"> -->
             <!--==================== QUALIFICATION 1 ====================-->
-            <div class="qualification__data">
+            <!-- <div class="qualification__data">
               <div>
                 <h3 class="qualification__title">Marceneiro</h3>
                 <span class="qualification__subtitle">SENAI - Maracanã</span>
@@ -502,9 +563,9 @@
                 <span class="qualification__rounder"></span>
                 <span class="qualification__line"></span>
               </div>
-            </div>
+            </div> -->
               <!--==================== QUALIFICATION 2 ====================-->
-              <div class="qualification__data">
+              <!-- <div class="qualification__data">
                 <div></div>
 
                 <div>
@@ -522,10 +583,10 @@
                     2009 - 2014
                   </div>
                 </div>
-              </div>
+              </div> -->
 
               <!--==================== QUALIFICATION 3 ====================-->
-              <div class="qualification__data">
+              <!-- <div class="qualification__data">
                 <div>
                   <h3 class="qualification__title">Marceneiro 3</h3>
                   <span class="qualification__subtitle"
@@ -539,9 +600,9 @@
 
                 <div>
                   <span class="qualification__rounder"></span>
-                  <!-- <span class="qualification__line"></span> -->
+                  <span class="qualification__line"></span>
                 </div>
-              </div>
+              </div> -->
 
             </div>
             </div>
@@ -551,11 +612,11 @@
       <!--==================== SERVICES ====================-->
       <section class="services section" id="services">
         <h2 class="section__title">services</h2>
-        <span class="section__subtitle">What i offer</span>
+        <span class="section__subtitle">O que eu ofereço</span>
 
         <div class="services__container container grid">
           <!--==================== SERVICES 1 ====================-->
-          <div class="services__content">
+          <!-- <div class="services__content">
             <div>
               <i class="uil uil-web-grid services__icon"></i>
               <h3 class="services__title">Ui/Ux <br> Designer</h3>
@@ -591,41 +652,41 @@
                 </ul>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!--==================== SERVICES 2 ====================-->
           <div class="services__content">
             <div>
               <i class="uil uil-arrow services__icon"></i>
-              <h3 class="services__title">Frontend <br> Developer</h3>
+              <h3 class="services__title">Desenvolvedor <br> Frontend</h3>
             </div>
 
             <span class="button button--flex button--small button--link services__button">
-              View more
+              Veja mais
               <i class="uil uil-arrow-right button__icon"></i>
             </span>
 
             <div class="services__modal">
               <div class="services__modal-content">
-                <h4 class="services__modal-title">Frontend <br> Developer</h4>
+                <h4 class="services__modal-title">Desenvolvedor <br> Frontend</h4>
                 <i class="uil uil-times services__modal-close"></i>
 
                 <ul class="services__modal-services grid">
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I develop the user interface.</p>
+                    <p>Desenvolvimento de páginas.</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I develop the user interface2.</p>
+                    <p>Manutenção de códigos.</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I develop the user interface3.</p>
+                    <p>Design responsivo.</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I develop the user interface4.</p>
+                    <p>Interfaces dinâmicas.</p>
                   </li>
                 </ul>
               </div>
@@ -633,7 +694,7 @@
           </div>
 
           <!--==================== SERVICES 3 ====================-->
-          <div class="services__content">
+          <!-- <div class="services__content">
             <div>
               <i class="uil uil-pen services__icon"></i>
               <h3 class="services__title">Branding <br> Designer</h3>
@@ -669,73 +730,14 @@
                 </ul>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
-      <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Portfolio</h2>
-        <span class="section__subtitle">Most recent work</span>
-
-        <div class="portfolio__container container swiper mySwiper">
-          <div class="swiper-wrapper">
-            <!--==================== PORTFOLIO 1 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="./assets/img/portfolio1.jpg" alt="" class="portfolio__img">
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Modern Website</h3>
-                <p class="porfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
-                <a href="" class="button button--flex button--small portfolio__button">
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 2 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="./assets/img/portfolio2.jpg" alt="" class="portfolio__img">
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Modern Website2</h3>
-                <p class="porfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
-                <a href="" class="button button--flex button--small portfolio__button">
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-
-            <!--==================== PORTFOLIO 3 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="./assets/img/portfolio3.jpg" alt="" class="portfolio__img">
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Modern Website3</h3>
-                <p class="porfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
-                <a href="" class="button button--flex button--small portfolio__button">
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-            <div class="swiper-button-next">
-              <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-            </div>
-            <div class="swiper-button-prev">
-              <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-            </div>
-            <div class="swiper-pagination"></div>
-
-        </div>
-      </section>
+      
 
       <!--==================== PROJECT IN MIND ====================-->
-      <section class="project section">
+      <!-- <section class="project section">
         <div class="project__bg">
           <div class="project__container container grid">
             <div class="project__data">
@@ -750,17 +752,17 @@
             <img src="./assets/img/project.png" alt="" class="project__img">
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section">
+      <!-- <section class="testimonial section">
         <h2 class="section__title">Testimonial</h2>
         <span class="section__subtitle">My client saying</span>
 
         <div class="testimonial__container container swiper mySwiper">
-          <div class="swiper-wrapper">
+          <div class="swiper-wrapper"> -->
             <!--==================== TESTIMONIAL 1 ====================-->
-            <div class="testimonial__content swiper-slide">
+            <!-- <div class="testimonial__content swiper-slide">
               <div class="testimonial__data">
                 <div class="testimonial__header">
                   <img src="./assets/img/testimonial1.jpg" alt="" class="testimonial__img">
@@ -781,10 +783,10 @@
               </div>
 
               <p class="testimonial__description">I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.</p>
-            </div>
+            </div> -->
 
             <!--==================== TESTIMONIAL 2 ====================-->
-            <div class="testimonial__content swiper-slide">
+            <!-- <div class="testimonial__content swiper-slide">
               <div class="testimonial__data">
                 <div class="testimonial__header">
                   <img src="./assets/img/testimonial2.jpg" alt="" class="testimonial__img">
@@ -805,10 +807,10 @@
               </div>
 
               <p class="testimonial__description">I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day. 2</p>
-            </div>
+            </div> -->
 
             <!--==================== TESTIMONIAL 3 ====================-->
-            <div class="testimonial__content swiper-slide">
+            <!-- <div class="testimonial__content swiper-slide">
               <div class="testimonial__data">
                 <div class="testimonial__header">
                   <img src="./assets/img/testimonial3.jpg" alt="" class="testimonial__img">
@@ -834,12 +836,12 @@
 
           <div class="swiper-pagination"></div>
         </div>
-      </section>
+      </section> -->
 
       <!--==================== CONTACT ME ====================-->
       <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Get in touch</span>
+        <h2 class="section__title">Contato</h2>
+        <span class="section__subtitle">Fale comigo ;&#41;</span>
 
         <div class="contact__container container grid">
           <div>
@@ -861,14 +863,14 @@
                 </div>
               </div>
 
+              <!-- <div>
               <div class="contact__information">
                 <i class="uil uil-map-marker contact__icon"></i>
 
-                <div>
                   <h3 class="contact__title">Location</h3>
                   <span class="contact__subtitle">RJ - Av. Monte Olimpo, 777</span>
                 </div>
-              </div>
+              </div> -->
           </div>
 
           <!-- <form action="" class="contact__form grid">

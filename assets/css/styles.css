@@ -1092,13 +1092,14 @@ img {
   }
 
   .about__container,
-  .skills__container,
   .portfolio__content,
   .project__container,
   .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+
 
   .qualification__sections {
     display: grid;
@@ -1188,10 +1189,6 @@ img {
 
   .about__description {
     text-align: initial;
-  }
-
-  .about__info {
-    justify-content: space-between;
   }
 
   .about__buttons {
@@ -1296,7 +1293,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 238px);
+    grid-template-columns: repeat(1, 238px);
   }
 
   .portfolio__content {
