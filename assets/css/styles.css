@@ -323,10 +323,6 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
-.home__description {
-  margin-bottom: var(--mb-2);
-}
-
 /* .home__scroll {
    display: none; 
 } 
@@ -495,69 +491,6 @@ img {
 .skills__name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-}
-
-.skills__bar,
-.skills__percentage {
-  height: 5px;
-  border-radius: 0.25rem;
-}
-
-.skills__bar {
-  background-color: var(--first-color-lighter);
-}
-
-.skills__percentage {
-  display: block;
-  background-color: var(--first-color);
-}
-
-.skills__html {
-  width: 90%;
-}
-
-.skills__css {
-  width: 70%;
-}
-
-.skills__js {
-  width: 50%;
-}
-
-.skills__react {
-  width: 00%;
-}
-
-.skills__php {
-  width: 00%;
-}
-
-.skills__node {
-  width: 00%;
-}
-
-.skills__firebase {
-  width: 00%;
-}
-
-.skills__python {
-  width: 00%;
-}
-
-.skills__figma {
-  width: 00%;
-}
-
-.skills__sketch {
-  width: 00%;
-}
-
-.skills__photoshop {
-  width: 00%;
-}
-
-.skills__ilustrator {
-  width: 00%;
 }
 
 .skills__close .skills__list {
@@ -905,7 +838,14 @@ img {
 
 .contact__subtitle {
   font-size: var(--small-font-size);
+}
+
+.contact__subtitle a {
   color: var(--text-color-light);
+}
+
+.contact__subtitle a:hover {
+  color: var(--first-color);
 }
 
 .contact__content {
